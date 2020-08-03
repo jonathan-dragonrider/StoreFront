@@ -1,0 +1,91 @@
+header {
+    background-image: url(images/coffee_beans.jpg);
+    position: relative;
+    height: 200px;
+    width: 100%;
+    min-width: 960px;
+}
+h1, h2, h3, h4, p, li {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+#title {
+    color: #D7CCC8;
+    position: absolute;
+    top: -40px;
+    left: 105px;
+    font-size: 80px;
+    white-space: nowrap;    
+}
+header h2 {
+    color: #D7CCC8;
+    position: absolute;
+    top: 85px;
+    left: 115px;
+    white-space: nowrap;
+    font-size: 25px;
+}
+nav ul{
+    position: absolute;
+    top: 140px;
+    list-style: none;
+    background-color: #795548 ;
+    height: 35px;
+}
+nav ul li {
+    display: inline-block;
+    margin: 8px 10px 0 0;
+}
+nav li a, nav li a:visited {
+    color: #D7CCC8;
+    text-decoration: none;
+}
+#featured {
+    text-align: center;
+}
+section {
+    display: inline-block;
+}
+.infoTile {
+    float: left;
+    position: relative;
+    width: 400px;
+    /* left: 70px; */
+    border: solid black 3px;
+    border-radius: 20px;
+    margin: 0 0 10px 70px;
+}
+.locations {
+    height: 250px;
+    width: 350px;
+    border-radius: 10px;
+}
+.insideTile {
+    margin: 0 0 0 20px;
+}
+footer {
+    background-color: #6D4C41;
+    height: 15px;
+    color: #D7CCC8;
+    text-align: center;
+    padding: 1.5em 2.0em;
+}
+footer ul {
+    display: inline-block;
+    list-style: none;
+    margin: -10px 0 0 0;
+}
+footer ul li {
+    display: inline-block;
+    margin: 0 0 10px 10px;
+}
+footer a, footer a:visited {
+    color: #D7CCC8;
+    text-decoration: none;
+}
+button {
+    position: absolute;
+    right: 30px;
+    bottom: 20px;
+}
+
+
